@@ -1,0 +1,20 @@
+config {
+    type: "view"
+}
+
+SELECT
+  "laptop" AS device,
+  2 AS count
+UNION ALL
+SELECT
+  "desktop" AS device,
+  5 AS count
+UNION ALL
+SELECT
+  "tablet" AS device,
+  1 AS count
+UNION ALL
+SELECT
+  "mobile phone" AS device,
+  0 AS count
+  

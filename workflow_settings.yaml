@@ -1,0 +1,9 @@
+dataformCoreVersion: 3.0.9
+defaultProject: daniel-dataplex
+defaultLocation: EU
+defaultDataset: dataform_sandbox
+defaultAssertionDataset: dataform_sandbox
+vars:
+    LOAD_GCS_BUCKET: dataform-sanbox-dholgate
+    RAW_DATA: dataform-sanbox-raw
+    TARGET_DATA: dataform-sanbox-final

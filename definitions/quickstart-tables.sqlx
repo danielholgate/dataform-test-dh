@@ -1,0 +1,11 @@
+config {
+    type: "table"
+}
+
+SELECT
+  device,
+  SUM(count) AS count
+FROM
+  ${ref("quickstart-source")}
+GROUP BY
+  1
